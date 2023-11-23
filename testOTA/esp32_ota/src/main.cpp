@@ -9,7 +9,7 @@
 #define debug(fmt, ...) Serial.printf( ("line=%d file=%s ---" fmt "\n"), __LINE__, __FILE__,  ##__VA_ARGS__)
 
 const char* host = "esp32";
-const char* ssid = "AIDU-YJ";
+const char* ssid = "AIDU-YJ2";
 const char* password = "4008160896";
 char Host[16] = "192.168.137.1";
 uint16_t Port = 8000;
@@ -165,5 +165,5 @@ void loop(void) {
     Serial.println(tcpRcv);
   }
   
-  delay(1);
+  delay(10000);
 }

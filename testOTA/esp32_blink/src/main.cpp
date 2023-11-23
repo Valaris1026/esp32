@@ -6,7 +6,7 @@
 #include <Update.h>
 
 const char* host = "esp32";
-const char* ssid = "AIDU-YJ";
+const char* ssid = "AIDU-YJ2";
 const char* password = "4008160896";
 
 //variabls for blinking an LED with Millis
