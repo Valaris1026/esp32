@@ -49,19 +49,19 @@
 
 // WROVER-KIT PIN Map
 #ifdef BOARD_WROVER_KIT
-
-#define CAM_PIN_PWDN -1  //power down is not used
-#define CAM_PIN_RESET -1 //software reset will be performed
+/*Attention:Do not use pin33~37,it may course some error*/
+#define CAM_PIN_PWDN 46  //power down is not used
+#define CAM_PIN_RESET 3 //software reset will be performed
 #define CAM_PIN_XCLK 21
 #define CAM_PIN_SIOD 38
 #define CAM_PIN_SIOC 17
 
-#define CAM_PIN_D7 35
-#define CAM_PIN_D6 37
-#define CAM_PIN_D5 39
-#define CAM_PIN_D4 36
-#define CAM_PIN_D3 19
-#define CAM_PIN_D2 18
+#define CAM_PIN_D7 8
+#define CAM_PIN_D6 18
+#define CAM_PIN_D5 16
+#define CAM_PIN_D4 15
+#define CAM_PIN_D3 7
+#define CAM_PIN_D2 6
 #define CAM_PIN_D1 5
 #define CAM_PIN_D0 4
 #define CAM_PIN_VSYNC 47
@@ -154,11 +154,11 @@ void app_main(void)
     while (1)
     {
         ESP_LOGI(TAG, "Taking picture...");
-//        camera_fb_t *pic = esp_camera_fb_get();
-//
-//        // use pic->buf to access the image
-//        ESP_LOGI(TAG, "Picture taken! Its size was: %zu bytes", pic->len);
-//        esp_camera_fb_return(pic);
+        camera_fb_t *pic = esp_camera_fb_get();
+
+        // use pic->buf to access the image
+        ESP_LOGI(TAG, "Picture taken! Its size was: %zu bytes", pic->len);
+        esp_camera_fb_return(pic);
 
         vTaskDelay(5000 / portTICK_RATE_MS);
     }
