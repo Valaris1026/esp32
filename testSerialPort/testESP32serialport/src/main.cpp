@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <main.h>
+#include "math.h"
 
 // put function declarations here:
 int myFunction(int, int);
@@ -15,6 +16,9 @@ void setup() {
   int result = myFunction(2, 3);
 }
 
+int i=0;
+float value=0.f;
+
 void loop() {
   // put your main code here, to run repeatedly:
   if (Serial2.available())
@@ -27,11 +31,8 @@ void loop() {
     String s1Msg=Serial1.readString();
     Serial.printf("serial1 rcv msg:%s\n",s1Msg.c_str());
   }
-  debug("hello world");
-  delay(100);
-}
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+//  value =
+  debug("%d,%7.4f",i,value);
+  delay(100);
 }

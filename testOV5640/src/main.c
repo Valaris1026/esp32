@@ -50,8 +50,8 @@
 // WROVER-KIT PIN Map
 #ifdef BOARD_WROVER_KIT
 /*Attention:Do not use pin33~37,it may course some error*/
-#define CAM_PIN_PWDN 46  //power down is not used
-#define CAM_PIN_RESET 3 //software reset will be performed
+#define CAM_PIN_PWDN -1  //power down is not used
+#define CAM_PIN_RESET -1 //software reset will be performed
 #define CAM_PIN_XCLK 21
 #define CAM_PIN_SIOD 38
 #define CAM_PIN_SIOC 17
@@ -116,12 +116,12 @@ static camera_config_t camera_config = {
     .pin_pclk = CAM_PIN_PCLK,
 
     //XCLK 20MHz or 10MHz for OV2640 double FPS (Experimental)
-    .xclk_freq_hz = 20000000,
+    .xclk_freq_hz = 10000000,
     .ledc_timer = LEDC_TIMER_0,
     .ledc_channel = LEDC_CHANNEL_0,
 
     .pixel_format = PIXFORMAT_RGB565, //YUV422,GRAYSCALE,RGB565,JPEG
-    .frame_size = FRAMESIZE_QVGA,    //QQVGA-UXGA, For ESP32, do not use sizes above QVGA when not JPEG. The performance of the ESP32-S series has improved a lot, but JPEG mode always gives better frame rates.
+    .frame_size = FRAMESIZE_240X240,    //QQVGA-UXGA, For ESP32, do not use sizes above QVGA when not JPEG. The performance of the ESP32-S series has improved a lot, but JPEG mode always gives better frame rates.
 
     .jpeg_quality = 12, //0-63, for OV series camera sensors, lower number means higher quality
     .fb_count = 1,       //When jpeg mode is used, if fb_count more than one, the driver will work in continuous mode.
