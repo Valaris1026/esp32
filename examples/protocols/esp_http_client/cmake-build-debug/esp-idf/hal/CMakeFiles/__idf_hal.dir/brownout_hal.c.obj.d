@@ -1,0 +1,23 @@
+esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj: \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\hal\brownout_hal.c \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\hal\esp32s3\include/hal/brownout_ll.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\lib\gcc\xtensa-esp32s3-elf\12.2.0\include\stdbool.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\soc\esp32s3\include/soc/rtc_cntl_struct.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\lib\gcc\xtensa-esp32s3-elf\12.2.0\include\stdint.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\sys-include\stdint.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\sys-include\machine\_default_types.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\sys-include\sys\features.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\sys-include\_newlib_version.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\sys-include\sys\_intsup.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\xtensa-esp32s3-elf\sys-include\sys\_stdint.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\hal\platform_port\include/hal/regi2c_ctrl.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\esp_hw_support\include/esp_private/regi2c_ctrl.h \
+ D:\Testspace\esp32\examples\protocols\esp_http_client\cmake-build-debug\config/sdkconfig.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\esp_rom\include/esp_rom_regi2c.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\soc\esp32s3\include/soc/regi2c_defs.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\esp_common\include/esp_bit_defs.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\soc\esp32s3\include/soc/regi2c_brownout.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\hal\include/hal/brownout_hal.h \
+ c:\espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\lib\gcc\xtensa-esp32s3-elf\12.2.0\include\stddef.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\soc\esp32s3\include/soc/soc_caps.h \
+ C:\Espressif\frameworks\esp-idf-v5.1.2\components\soc\esp32s3\include/soc/mpu_caps.h

@@ -1,0 +1,2 @@
+C:\Espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\bin\xtensa-esp32s3-elf-ar.exe qc libmain.a CMakeFiles/__idf_main.dir/esp_http_client_example.c.obj CMakeFiles/__idf_main.dir/__/__/howsmyssl_com_root_cert.pem.S.obj CMakeFiles/__idf_main.dir/__/__/postman_root_cert.pem.S.obj
+C:\Espressif\tools\xtensa-esp32s3-elf\esp-12.2.0_20230208\xtensa-esp32s3-elf\bin\xtensa-esp32s3-elf-ranlib.exe libmain.a

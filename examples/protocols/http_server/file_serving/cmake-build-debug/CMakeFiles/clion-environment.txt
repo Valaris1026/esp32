@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@C:\MySoft\IDE\minGW\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=C:/MySoft/IDE/minGW/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe
